@@ -15,6 +15,6 @@ end
 grocery_list = ["avocado", "watermelon", "chicken", "mushrooms"]
 
 addItem("rice", grocery_list)
-puts "Your grocery list includes #{grocery_list.length} items."
 
 actual(grocery_list)
+puts "Your grocery list includes #{grocery_list.length} items."
