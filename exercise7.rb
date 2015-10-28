@@ -19,3 +19,13 @@ display(students)
 
 # Cohort names only
 puts students.keys
+
+# Expand classes by 5%
+
+def expand(num)
+	num * 1.05
+end
+
+students.each do |cohort, size|
+		puts "#{cohort}: #{expand(size).to_i}"
+end
