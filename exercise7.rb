@@ -31,5 +31,16 @@ students.each do |cohort, size|
 end
 
 # Delete second cohort
-students.delete(:cohort2)
-display(students)
+# students.delete(:cohort2)
+# display(students)
+
+# Bonus
+def totalstudents(allstudents)
+	counter = 0
+	allstudents.each do |cohort, size|
+	counter += size
+end
+	return counter
+end
+
+puts "Bonus: The total number of students in all cohorts is #{totalstudents(students)}."
