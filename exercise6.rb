@@ -31,3 +31,5 @@ end
 
 check("bananas", grocery_list)
 
+puts grocery_list[1]
+
