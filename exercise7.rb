@@ -16,3 +16,6 @@ end
 
 students[:cohort4] = 43
 display(students)
+
+# Cohort names only
+puts students.keys
