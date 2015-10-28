@@ -1,11 +1,20 @@
 # Grocery List
 
-grocery_list = ["avocado", "watermelon", "chicken", "mushrooms"]
-
-grocery_list.each do |list_item|
-	puts "* #{list_item}"
+def actual(grocery_list)
+	grocery_list.each {|list_item| puts "* #{list_item}" }
 end
 
-# def print_list(list)
-# 	list.each {|list_item| puts "* #{list_item}"}
-# end
+
+# Need to add rice
+
+def addItem(item, grocery_list)
+	grocery_list.push(item)
+end
+
+
+grocery_list = ["avocado", "watermelon", "chicken", "mushrooms"]
+
+addItem("rice", grocery_list)
+puts "Your grocery list includes #{grocery_list.length} items."
+
+actual(grocery_list)
