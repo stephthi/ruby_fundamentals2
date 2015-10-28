@@ -10,4 +10,9 @@ def display(size)
 	end
 end
 
+# display(students)
+
+# Add a fourth cohort
+
+students[:cohort4] = 43
 display(students)
