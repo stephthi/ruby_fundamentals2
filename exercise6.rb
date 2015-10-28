@@ -12,7 +12,7 @@ def addItem(item, grocery_list)
 end
 
 
-grocery_list = ["avocado", "watermelon", "chicken", "mushrooms" ]
+grocery_list = ["avocado", "watermelon", "chicken", "salmon" ]
 
 addItem("rice", grocery_list)
 
@@ -31,5 +31,13 @@ end
 
 check("bananas", grocery_list)
 
-puts grocery_list[1]
+puts "The second item in your grocery list is #{grocery_list[1]}."
+
+alphabetical = grocery_list.sort
+
+puts "Your list in alphabetical order is:"
+actual(alphabetical)
+
+
+
 
