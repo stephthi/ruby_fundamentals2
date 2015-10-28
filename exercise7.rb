@@ -15,10 +15,10 @@ end
 # Add a fourth cohort
 
 students[:cohort4] = 43
-display(students)
+# display(students)
 
 # Cohort names only
-puts students.keys
+# puts students.keys
 
 # Expand classes by 5%
 
@@ -29,3 +29,7 @@ end
 students.each do |cohort, size|
 		puts "#{cohort}: #{expand(size).to_i}"
 end
+
+# Delete second cohort
+students.delete(:cohort2)
+display(students)
