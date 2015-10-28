@@ -16,8 +16,11 @@ grocery_list = ["avocado", "watermelon", "chicken", "salmon" ]
 
 addItem("rice", grocery_list)
 
-actual(grocery_list)
-puts "Your grocery list includes #{grocery_list.length} items."
+grocery_list.delete("salmon")
+puts "You have removed salmon from your grocery list."
+
+# actual(grocery_list)
+# puts "Your grocery list includes #{grocery_list.length} items."
 
 # Does it include bananas?
 
@@ -38,6 +41,7 @@ alphabetical = grocery_list.sort
 puts "Your list in alphabetical order is:"
 actual(alphabetical)
 
+# Task 7 was placed on line 19 to remove salmon from list.
 
 
 
