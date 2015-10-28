@@ -9,4 +9,5 @@ end
 
 farenOut = tempC(farenIn).to_i
 
+# Final output
 puts "#{farenIn} in Farenheit converts to #{farenOut} degrees Celsius."
